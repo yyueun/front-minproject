@@ -1,0 +1,22 @@
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>글목록</title>
+</head>
+<body>
+        <div id = "modal" >
+            <form id = form>
+            <div id ='item'>
+                <input name = "title">
+                <input name = "content">
+                <input type = 'file' name = "image">
+                <input  name = "category">
+                <button onclick ="submitArticle()">작성완료</button>
+                <button onclick ="closeModal()">닫기</button>
+            </div>
+            </form>
+        </div>
+   
+        <button onclick="showModal()">글쓰기</button>
+</body>
+<script src="get.js"></script>
+</html>
